@@ -1,2 +1,2 @@
-### Установка NextCloud на Ubuntu 16.04
+# Установка NextCloud на Ubuntu 16.04
 
