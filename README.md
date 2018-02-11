@@ -1,10 +1,14 @@
+```{r, engine='bash', code_block_name}```
+
 # Установка NextCloud на Ubuntu 16.04
 Ставим дополнительные пакеты:
 
 `sudo apt-get install php-gd php-json php-mysql php-curl php-intl php-mcrypt php-imagick php-zip php-dom php7.0-xml php-mbstring wget unzip`
+
 Редактируем файл "php.ini"
 
-sudo nano /etc/php/7.0/apache2/php.ini
+`sudo nano /etc/php/7.0/apache2/php.ini`
+
 Меняем значения внутри на:
 
 memory_limit = 512M
