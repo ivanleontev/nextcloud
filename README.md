@@ -44,18 +44,14 @@ sudo chown -R www-data:www-data /var/www/html/nextcloud/`
 Набираем:
 
 `Alias /nextcloud "/var/www/html/nextcloud/"
-
 <Directory /var/www/html/nextcloud/>
   Options +FollowSymlinks
   AllowOverride All
-
  <IfModule mod_dav.c>
   Dav off
  </IfModule>
-
  SetEnv HOME /var/www/html/nextcloud
  SetEnv HTTP_HOME /var/www/html/nextcloud
-
 </Directory>`
 
 Создаем ссылку на "/etc/apache2/sites-enabled/":
