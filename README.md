@@ -85,3 +85,7 @@
 `sudo systemctl restart apache2`
 
 Теперь приступаем к завершающему этапу. Войдите в NextCloud через любой веб-браузер по адресу: "http://ip-адрес/nextcloud/"
+
+Папка с файлов конфигурации выбора размещения данных `config.php`
+
+`/var/www/html/nextcloud/config`
