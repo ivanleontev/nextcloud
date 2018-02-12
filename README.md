@@ -1,5 +1,6 @@
 # Установка NextCloud на Ubuntu 16.04
-Ставим дополнительные пакеты:
+
+После установки LAMP, cтавим дополнительные пакеты:
 
 `sudo apt-get install php-gd php-json php-mysql php-curl php-intl php-mcrypt php-imagick php-zip php-dom php7.0-xml php-mbstring wget unzip`
 
