@@ -1,5 +1,17 @@
 # Установка NextCloud на Ubuntu 16.04
 
+## LAMP 
+
+`sudo apt-get install apache2`
+
+`sudo apt-get install mysql-server php7.0-mysql`
+
+`sudo apt-get install mysql_install_db`
+
+`sudo apt-get install mysql_secure_installation`
+
+`sudo apt-get install php7.0 libapache2-mod-php7.0 php7.0-mcrypt`
+
 После установки LAMP, cтавим дополнительные пакеты:
 
 `sudo apt-get install php-gd php-json php-mysql php-curl php-intl php-mcrypt php-imagick php-zip php-dom php7.0-xml php-mbstring wget unzip`
